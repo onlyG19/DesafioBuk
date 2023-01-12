@@ -1,0 +1,30 @@
+{
+    "valid_data": [
+      {
+      "name": "Byron G",
+      "country": "Chile",
+      "city": "Santiago",
+      "card": "10234567",
+      "month": "01",
+      "year": "2022",
+      "expected_text": "Thank you for your purchase!"
+    },
+    {
+      "name": "Byron G",
+      "country": "",
+      "city": "",
+      "card": "10234567",
+      "month": "",
+      "year": "",
+      "expected_text": "Thank you for your purchase!"
+    }],
+    "invalid_data": [  {
+      "name": "",
+      "country": "",
+      "city": "",
+      "card": "",
+      "month": "",
+      "year": "",
+      "expected_text": "Please fill out Name and Creditcard."
+    }]
+  }
